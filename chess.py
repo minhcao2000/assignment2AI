@@ -6,7 +6,7 @@ def parse_fen(fen):
     return board.split('/'), turn
 
 
-def pre_over(fen):
+def pre_game_over(fen):
     tmp_moves = generate_legal_moves(fen)
     resutl = False
     count = 0
